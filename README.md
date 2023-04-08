@@ -4,13 +4,12 @@ Este script en Bash está diseñado para detectar los usuarios conectados a tu r
 
 Una vez que se han identificado los usuarios, el script crea un archivo de texto llamado "users.txt" y guarda la información de los usuarios detectados en este archivo. Para lograr esto, el script utiliza el comando echo para escribir la información de los usuarios en el archivo "users.txt".
 
-Uso
+Uso:
     
-    Clona el repositorio en tu sistema.
-    Abre una terminal y navega hasta el directorio donde se encuentra el script.
-    Ejecuta el script con el comando ./userConnected.sh El script puede tardar varios minutos en ejecutarse, dependiendo del tamaño de tu red.
-    Una vez que el script haya terminado de ejecutarse, la información de los usuarios detectados se guardará en un archivo llamado "users.txt" en el directorio actual.
-
+    git clone https://github.com/abund4nt/usersConnected
+    cd userConnected/
+    chmod +x ./userConnected.sh
+    ./userConnected.sh
 
 Es posible que debas ejecutar este script con permisos de superusuario (sudo) para que pueda escanear completamente la red local.
 
